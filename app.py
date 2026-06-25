@@ -244,7 +244,7 @@ if uploaded:
 
             try:
                 progress.markdown("🧠 AI মডেল বিশ্লেষণ করছে...")
-                model = genai.GenerativeModel("gemini-1.5-flash")
+                model = genai.GenerativeModel("gemini-2.0-flash")
 
                 img_bytes = io.BytesIO()
                 image.save(img_bytes, format="PNG")
